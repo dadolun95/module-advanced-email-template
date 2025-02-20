@@ -1,0 +1,7 @@
+{
+    "email_template": {
+        "column": {
+            "template_grapesjs_json": true
+        }
+    }
+}
