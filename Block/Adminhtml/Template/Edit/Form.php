@@ -106,10 +106,9 @@ class Form extends \Magento\Email\Block\Adminhtml\Template\Edit\Form
 <input id=\"grapesjs-template-html\" type=\"hidden\" />
 <input id=\"grapesjs-template-css\" type=\"hidden\" />
 <input id=\"grapesjs-template-data\" type=\"hidden\" value='{\"pages\": [{\"component\": \"\"}]}' />
-<link rel=\"stylesheet\" href=\"https://unpkg.com/grapesjs/dist/css/grapes.min.css\" />
 <div id='grapesjs'></div>
 <script type=\"text/javascript\">
-require(['jquery', 'https://unpkg.com/grapesjs', 'https://unpkg.com/grapesjs-preset-newsletter@1.0.2/dist/index.js'],
+require(['jquery', 'MageOS_AdvancedEmailTemplate/js/grapes.min', 'MageOS_AdvancedEmailTemplate/js/grapesjs-preset-newsletter'],
     function ($, grapesjs, nlPlugin) {
 
         var inlineStorage = (editor) => {
